@@ -1,21 +1,17 @@
+// Abaixo segue um exemplo de código que você pode ou não utilizar
 import java.util.Scanner;
 
 public class Desafio {
-    public static void main(String[] args){
-        
-        Scanner scanner = new Scanner (System.in);
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int A, B, PROD;
+		
+		A = sc.nextInt();
+		B = sc.nextInt();
+		 //TODO: Complete os espaços em branco com uma possível solução para o desafio 
+		PROD = A * B;
 
-        int numeroUm, numeroDois, prod;
-
-        System.out.println("Digite o numero A: "); 
-        numeroUm = scanner.nextInt();
-        
-        System.out.println("Digite o numero B: "); 
-        numeroDois = scanner.nextInt();
-
-        prod = numeroUm * numeroDois;
-
-        System.out.println("O Produto de " + numeroUm + " e " + numeroDois + " é = " + prod);
-
-    }
+		System.out.println("PROD = " + PROD);
+	}
 }
