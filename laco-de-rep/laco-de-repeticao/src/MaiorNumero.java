@@ -33,6 +33,6 @@ public class MaiorNumero
 		System.out.println("O maior numero que foi digitado é :" + memoria);
 
 	    }
-	    
+	    scanner.close();
 	}
 }
