@@ -27,6 +27,5 @@ public class DesafioDio {
 	System.out.println(nomes[7]);
 	System.out.println(nomes[9]);
 
-	scanner.close();
 }
 }
